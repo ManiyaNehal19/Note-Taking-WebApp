@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_BASE_PATH || "/Finance-Dashboard",
+  base: process.env.VITE_BASE_PATH || "/Note-Taking-WebApp",
 })
